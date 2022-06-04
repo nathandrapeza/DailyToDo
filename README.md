@@ -26,11 +26,11 @@ DailyToDo is an account-based daily planner styled full stack web application th
 1. Ensure React, Yarn (or NPM), and Python are installed on your device.
 2. Clone this repository onto your local drive.
 3. Open two terminal applications, and change into the `/front-end` directory and `/back-end` directory.
-4. In the `/front-end` directory, run command `yarn start` or `npm start`, depending on package manage preference.
-5. in the `/back-end` directory, run command `source env/bin/activate` to activate the virtual Python environment containing all python dependencies.
-6. In the terminal running the virtual Python environment, open the `back-end/api` directory and run command `python3 manage.py runserver`
+4. In one terminal window, open the `/front-end` directory, and run command `yarn` or `npm start`, depending on package manage preference.
+5. In the second terminal application, open the `/back-end` directory, and run the command `source env/bin/activate` to activate the virtual Python environment containing all python dependencies.
+6. In the terminal application with `back-end/api` open, run commands `python3 manage.py makemigrations`, `python manage.py migrate --run-syncdb`, and `python manage.py runserver` all in order.
 
 Upon completing these instructions, you will be able to use DailyToDo on your machine locally by navigating to `localhost:3000` in any web browser. Persistent application to-do list item data will be stored on your device in the SQLite database, and account login information will be saved locally in your browser, so that you can use the application without having to re-enter credentials.
     
-# Contributions
-**Nathan Drapeza**: Front-end, back-end, user interface application design (including logo and design mockups). Specific externally sourced helper code is labeled and cited.
+# Contributors
+**Nathan Drapeza**: Front-end, back-end, user interface application design (including logo and design mockups), and all work from the original GitHub repository. Specific externally sourced helper code is labeled and cited.
