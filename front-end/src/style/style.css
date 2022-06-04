@@ -1,0 +1,561 @@
+header {
+  background: lightblue;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: Helvetica, sans-serif;
+  padding-top: 60px;
+  padding-left: 190px;
+  padding-right: 190px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.login h1 {
+  font-size: 40px;
+}
+
+.login hr {
+  width: 100%;
+}
+
+.login .githubLogo {
+  width: 20px;
+}
+
+.login .loginUserInfoSide {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.login .loginUserInfoSide .textBox {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.login .loginUserInfoSide .inputLabel {
+  margin-top: 20px;
+}
+
+.login .loginUserInfoSide .loginButton {
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #21FF80;
+  width: 80px;
+}
+
+.login .loginUserInfoSide .loginButton:hover {
+  background: #01d35c;
+}
+
+.login .loginUserInfoSide .loginButton:disabled {
+  cursor: not-allowed;
+}
+
+.login .loginUserInfoSide p {
+  color: #888;
+}
+
+.login .loginUserInfoSide .accountManagement {
+  margin-top: 30px;
+  font-size: 10px;
+  color: #888;
+}
+
+.login .loginUserInfoSide .loginForm {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.login .loginImageSide {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-top: 27px;
+  margin-bottom: -40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login .loginImageSide img {
+  height: 90%;
+  width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    display: none;
+  }
+}
+
+.accountReset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: Helvetica, sans-serif;
+  padding-top: 60px;
+  padding-left: 190px;
+  padding-right: 190px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.accountReset h1 {
+  font-size: 40px;
+}
+
+.accountReset hr {
+  width: 100%;
+}
+
+.accountReset .githubLogo {
+  width: 20px;
+}
+
+.accountReset .registerUserInfoSide {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.accountReset .registerUserInfoSide .textBox {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.accountReset .registerUserInfoSide .inputLabel {
+  margin-top: 20px;
+}
+
+.accountReset .registerUserInfoSide .loginButton {
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #21FF80;
+  width: 80px;
+}
+
+.accountReset .registerUserInfoSide .accountResetButton {
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #7a80ff;
+  width: 80px;
+}
+
+.accountReset .registerUserInfoSide .accountResetButton:hover {
+  background: #585cb1;
+}
+
+.accountReset .registerUserInfoSide p {
+  color: #888;
+}
+
+.accountReset .registerUserInfoSide .accountManagement {
+  margin-top: 30px;
+  font-size: 10px;
+  color: #888;
+}
+
+.accountReset .registerUserInfoSide .accountResetForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.accountReset .registerImageSide {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.accountReset .registerImageSide img {
+  margin-top: 27px;
+  height: 83.1%;
+  width: 70%;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: Helvetica, sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.topbar {
+  font-family: Helvetica, sans-serif;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.topbar .currentDate {
+  margin-left: 50px;
+}
+
+.topbar .topbarLeftSide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topbar .topbarLeftSide p {
+  color: #888;
+}
+
+.topbar .topbarRightSide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topbar .topbarRightSide p {
+  color: #777;
+  margin-right: 30px;
+}
+
+.topbar .topbarRightSide .signoutButton {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #28CCFF;
+  width: 80px;
+}
+
+.topbar .topbarRightSide .signoutButton:hover {
+  background: #03a5d6;
+}
+
+.newTaskButton {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #21FF80;
+  width: 80px;
+  height: 10;
+}
+
+.newTaskButton:hover {
+  background: #01d35c;
+}
+
+.inboxButton {
+  font-size: 30px;
+}
+
+.taskCreation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.taskCreation .dateSelector {
+  font-family: Helvetica, sans-serif;
+  border: 0.5px solid #444;
+  padding: 8px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.taskCreation .rightSide {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-family: Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+.taskDesc {
+  width: calc(100vw - 400px);
+  border: 0px solid #444;
+  border-bottom-width: 1px;
+  background-color: transparent;
+  padding: 6px;
+}
+
+.microLink {
+  text-decoration: none;
+  color: inherit;
+}
+.createListItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.todoListItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0.1px solid #444;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+.todoListItem .leftSide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.todoListItem:hover {
+  background: #F8F8F8;
+}
+
+.progressIcon {
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.progressIcon:hover {
+  background-color: #999;
+}
+
+.duedate {
+  margin-right: 82px;
+  font-size: 15px;
+  color: #888;
+}
+
+.todoDescription {
+  margin-left: 25px;
+}
+
+.toDoContainer {
+  margin-top: 25px;
+}
+
+.clearListSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-top: 25px;
+}
+
+.clearListSection .clearTasksButton {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #7a80ff;
+  width: 80px;
+  height: 10;
+}
+
+.completedText {
+  color: #00e64d;
+  font-size: 15px;
+}
+
+.register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: Helvetica, sans-serif;
+  padding-top: 60px;
+  padding-left: 190px;
+  padding-right: 190px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.register h1 {
+  font-size: 40px;
+}
+
+.register hr {
+  width: 100%;
+}
+
+.register .githubLogo {
+  width: 20px;
+}
+
+.register .registerUserInfoSide {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.register .registerUserInfoSide .textBox {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.register .registerUserInfoSide .inputLabel {
+  margin-top: 20px;
+}
+
+.register .registerUserInfoSide .loginButton {
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #21FF80;
+  width: 80px;
+}
+
+.register .registerUserInfoSide .loginButton:hover {
+  background: #01d35c;
+}
+
+.register .registerUserInfoSide .registerButton {
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #28CCFF;
+  width: 80px;
+}
+
+.register .registerUserInfoSide .registerButton:hover {
+  background: #03a5d6;
+}
+
+.register .registerUserInfoSide p {
+  color: #888;
+}
+
+.register .registerUserInfoSide .accountManagement {
+  margin-top: 30px;
+  font-size: 10px;
+  color: #888;
+}
+
+.register .registerUserInfoSide .registerForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.register .registerImageSide {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.register .registerImageSide img {
+  margin-top: 27px;
+  height: 83.1%;
+  width: 70%;
+}
+
+.Toastify__toast--success {
+  border: 1px solid #3A9EA5 !important;
+  border-radius: 40px !important;
+  background: #F0F9FA !important;
+  text-align: center;
+}
+
+.Toastify__toast--warning {
+  border: 1px solid #E78326  !important;
+  border-radius: 40px !important;
+  background: #FADFC5 !important;
+  text-align: center;
+}
+
+.Toastify__toast--error {
+  border: 1px solid #e32424  !important;
+  border-radius: 40px !important;
+  background: #FADFC5 !important;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

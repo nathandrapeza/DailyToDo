@@ -39,7 +39,12 @@ build/Release
 
 # Dependency directories
 node_modules/
+front-end/node_modules/
 jspm_packages/
+front-end/node_modules/
+
+back-end/api/api/.env
+back-end/api/db.sqlite3
 
 # TypeScript v1 declaration files
 typings/
