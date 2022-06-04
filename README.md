@@ -1,6 +1,8 @@
 # DailyToDo
 DailyToDo is an account-based daily planner styled full stack web application that tracks user defined tasks (including both complete and incomplete tasks). A simplistic and intuitive user interface design, persistent data (which does not disappear after user signout), and positive reinforcement were used with the goal of helping users increase their amount of daily productivity.
 
+
+*(The low amount of git commits on this repository is due to an accidental information leak from the original repository, which had 40+ commits. I have deleted the original repository and have placed all contents into this one.)*
 # Demonstration
 ## Typical user workflow
 ![User workflow demonstration](https://raw.githubusercontent.com/nathandrapeza/DailyToDo/main/demo/user_workflow.gif)
