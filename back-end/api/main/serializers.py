@@ -10,10 +10,3 @@ class ToDoSerializer(serializers.ModelSerializer):
     class Meta:
         model = ToDoObject
         fields = '__all__'
-'''
-class ToDoItemSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        f
-
-        '''

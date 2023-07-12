@@ -22,8 +22,3 @@ class AccountResetObject(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     account = models.ForeignKey(User, on_delete=models.CASCADE)
     reset_code = models.CharField(max_length=1000)
-
-'''
-class UserSpecificToDoList(models.Model):
-    pass
-'''

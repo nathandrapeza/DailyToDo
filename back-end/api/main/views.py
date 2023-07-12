@@ -21,7 +21,6 @@ class UserList(APIView):
 
 class Register(APIView):
     def post(self, request):
-        print(request.data)
         serializer = UserSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
@@ -31,7 +30,6 @@ class Register(APIView):
 
 class Login(APIView):
     def post(self, request):
-        print(request.data)
         if User.objects.filter(username=request.data['username']).exists():
             user_object = User.objects.filter(username=request.data['username'])[0]
             username = user_object.username
@@ -42,24 +40,17 @@ class Login(APIView):
         else:
             return Response(status=status.HTTP_400_BAD_REQUEST)
 
-        #return Response(User.objects.filter(username="newuser"))
-        #return Response(request.data['username'])
-
 class ToDo(APIView):
     def post(self, request):
-        print(f'REQ DATA: {request.data}, DATA END.')
         user_username = request.data['user']['username']
         user_object = User.objects.filter(username=user_username)[0]
         description = request.data['task']
         duedate = request.data['duedate']['date']
         date_obj = datetime.datetime(int(duedate[0:4]), int(duedate[5:7]), int(duedate[8:10]))
 
-        # todo_item_dict = {'owner':user_object, 'description':description, 'duedate':date_obj}
+        # Format: todo_item_dict = {'owner':user_object, 'description':description, 'duedate':date_obj}
         todo_item = ToDoObject(owner=user_object, description=description, duedate=date_obj)
         todo_item.save()
-        print(f"date: {duedate}")
-        print(todo_item)
-        print(f"todo item duedate: {todo_item.duedate}")
         return Response(status=200)
 
     def get(self, request, pk):
@@ -96,7 +87,6 @@ class AccountReset(APIView):
             return Response(status=status.HTTP_400_BAD_REQUEST)
 
     def put(self, request):
-        print(f"HTTP REQUEST:{request.data}")
         user_email = request.data['email']
         new_password = request.data['password']
         user_object = User.objects.filter(email=user_email)[0]
