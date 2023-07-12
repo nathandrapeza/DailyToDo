@@ -80,7 +80,7 @@ class AccountReset(APIView):
             else:
                 new_reset_object = AccountResetObject(account=user_object, reset_code=str(random.randint(500000,999999)))
                 new_reset_object.save()
-                pass # email the user
+                pass # TODO: Email User reset code
                 return Response(status=200)
         # invalid email entered
         else:
@@ -98,17 +98,3 @@ class AccountReset(APIView):
             return Response(status=200)
         else:
             return Response(status=status.HTTP_400_BAD_REQUEST)
-            
-
-
-
-'''
-def user_list(request):
-    """
-    List all users
-    """
-    if request.method == 'GET':
-        users = User.objects.all()
-        serializer = UserSerializer(users, many=True)
-        return JsonResponse(serializer.data, safe=False)
-'''

@@ -1,8 +1,6 @@
 from tkinter import CASCADE
 from django.db import models
-import time
 import uuid
-from datetime import datetime, date
 
 class User(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)  # using the function uuid4 on the module
